@@ -101,7 +101,7 @@ not included in the AOSP release.
 [Download](https://developers.google.com/android/nexus/drivers) the correct
 version of these files for your device. For example, we used Nexus 7 tilapia and grouper:
 
-3.a Download binaries for Nexus 7 tilapia (Mobile):
+3.a. Download binaries for Nexus 7 tilapia (Mobile):
 
 ```
 cd ~/agate-4.3_r1
@@ -135,7 +135,7 @@ tar -zxvf widevine-grouper-jwr66y-a0b9cafc.tgz
 ./extract-widevine-grouper.sh # (view the license and then type "I ACCEPT")
 ```
 
-3.a Download binaries for Nexus 7 grouper (Wi-Fi):
+3.b. Download binaries for Nexus 7 grouper (Wi-Fi):
 
 ```
 cd ~/agate-4.3_r1
