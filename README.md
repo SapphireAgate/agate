@@ -84,10 +84,10 @@ Pull the source code and make sure we are working with the right version.
 ```
 cd ~/agate-4.3_r1
 repo sync
-repo for all dalvik libcore \
+repo forall dalvik libcore \
               -c 'git checkout -b agate-4.3_r1 --track github/agate-4.3_r1 && git pull'
 
-repo for all frameworks/base frameworks/native frameworks/opt/telephony \
+repo forall frameworks/base frameworks/native frameworks/opt/telephony \
              system/vold system/core device/samsung/manta device/samsung/tuna \
              packages/apps/TaintDroidNotify \
              -c 'git checkout -b taintdroid-4.3_r1 --track github/taintdroid-4.3_r1 && git pull'
