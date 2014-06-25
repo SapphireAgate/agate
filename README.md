@@ -106,33 +106,33 @@ version of these files for your device. For example, we used Nexus 7 tilapia and
 ```
 cd ~/agate-4.3_r1
 
-wget https://dl.google.com/dl/android/aosp/asus-grouper-jwr66y-d9ad928d.tgz
-tar -zxvf asus-grouper-jwr66y-d9ad928d.tgz
-./extract-asus-grouper.sh # (view the license and then type "I ACCEPT")
+wget https://dl.google.com/dl/android/aosp/asus-tilapia-jwr66y-1671e4a8.tgz
+tar -zxvf asus-tilapia-jwr66y-1671e4a8.tgz
+./extract-asus-tilapia.sh # (view the license and then type "I ACCEPT")
 
-wget https://dl.google.com/dl/android/aosp/broadcom-grouper-jwr66y-af694cc9.tgz
-tar -zxvf broadcom-grouper-jwr66y-af694cc9.tgz
-./extract-broadcom-grouper.sh # (view the license and then type "I ACCEPT")
+wget https://dl.google.com/dl/android/aosp/broadcom-tilapia-jwr66y-b1271a01.tgz
+tar -zxvf broadcom-tilapia-jwr66y-b1271a01.tgz
+./extract-broadcom-tilapia.sh # (view the license and then type "I ACCEPT")
 
-wget https://dl.google.com/dl/android/aosp/elan-grouper-jwr66y-2ece01e1.tgz
-tar -zxvf elan-grouper-jwr66y-2ece01e1.tgz
-./extract-elan-grouper.sh # (view the license and then type "I ACCEPT")
+https://dl.google.com/dl/android/aosp/elan-tilapia-jwr66y-61ff5ff6.tgz
+tar -zxvf elan-tilapia-jwr66y-61ff5ff6.tgz
+./extract-elan-tilapia.sh # (view the license and then type "I ACCEPT")
 
-https://dl.google.com/dl/android/aosp/invensense-grouper-jwr66y-f21f0c49.tgz
-tar -zxvf invensense-grouper-jwr66y-f21f0c49.tgz
-./extract-invensense-grouper.sh # (view the license and then type "I ACCEPT")
+https://dl.google.com/dl/android/aosp/invensense-tilapia-jwr66y-62642635.tgz
+tar -zxvf invensense-tilapia-jwr66y-62642635.tgz
+./extract-invensense-tilapia.sh # (view the license and then type "I ACCEPT")
 
-https://dl.google.com/dl/android/aosp/nvidia-grouper-jwr66y-b3b0003e.tgz
-tar -zxvf nvidia-grouper-jwr66y-b3b0003e.tgz
-./extract-nvidia-grouper.sh # (view the license and then type "I ACCEPT")
+https://dl.google.com/dl/android/aosp/nvidia-tilapia-jwr66y-b2aa4337.tgz
+tar -zxvf nvidia-tilapia-jwr66y-b2aa4337.tgz
+./extract-nvidia-tilapia.sh # (view the license and then type "I ACCEPT")
 
-https://dl.google.com/dl/android/aosp/nxp-grouper-jwr66y-f5d295e4.tgz
-tar -zxvf nxp-grouper-jwr66y-f5d295e4.tgz
-./extract-nxp-grouper.sh # (view the license and then type "I ACCEPT")
+https://dl.google.com/dl/android/aosp/nxp-tilapia-jwr66y-1ffb1bc2.tgz
+tar -zxvf nxp-tilapia-jwr66y-1ffb1bc2.tgz
+./extract-nxp-tilapia.sh # (view the license and then type "I ACCEPT")
 
-https://dl.google.com/dl/android/aosp/widevine-grouper-jwr66y-a0b9cafc.tgz
-tar -zxvf widevine-grouper-jwr66y-a0b9cafc.tgz
-./extract-widevine-grouper.sh # (view the license and then type "I ACCEPT")
+https://dl.google.com/dl/android/aosp/widevine-tilapia-jwr66y-777880cf.tgz
+tar -zxvf widevine-tilapia-jwr66y-777880cf.tgz
+./extract-widevine-tilapia.sh # (view the license and then type "I ACCEPT")
 ```
 
 3.b. Download binaries for Nexus 7 grouper (Wi-Fi):
