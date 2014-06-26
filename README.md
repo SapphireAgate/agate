@@ -10,6 +10,13 @@ Agate is built on TaintDroid for *android-4.3_r1* tag of the Android source
 code. To get the source code you can use the following commands (more details
 on [Android source code](https://source.android.com)):
 
+First, download the Repo tool and ensure that it is executable:
+
+```
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+chmod a+x ~/bin/repo
+```
+
 ```
  mkdir -p ~/agate-4.3_r1
  cd ~/agate-4.3_r1
