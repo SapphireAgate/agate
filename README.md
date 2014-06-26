@@ -42,7 +42,11 @@ Copy and paste the following content into
       revision="agate-4.3_r1"/>
   <remove-project name="platform/libcore"/>
   <project path="libcore" remote="github"
-       name="SapphireAgate/android_platform_libcore"
+      name="SapphireAgate/android_platform_libcore"
+      revision="agate-4.3_r1"/>
+  <remove-project name="platform/libnativehelper"/>
+  <project path="libnativehelper" remote="github"
+      name="SapphireAgate/android_platform_libnativehelper"
       revision="agate-4.3_r1"/>
   <remove-project name="platform/frameworks/base"/>
   <project path="frameworks/base" remote="github"
@@ -84,7 +88,7 @@ Pull the source code and make sure we are working with the right version.
 ```
 cd ~/agate-4.3_r1
 repo sync
-repo forall dalvik libcore \
+repo forall dalvik libcore libnativehelper\
               -c 'git checkout -b agate-4.3_r1 --track github/agate-4.3_r1 && git pull'
 
 repo forall frameworks/base frameworks/native frameworks/opt/telephony \
